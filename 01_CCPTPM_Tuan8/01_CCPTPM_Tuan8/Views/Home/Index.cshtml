@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" asp-controller="Home" asp-action="index" enctype="multipart/form-data">
+    <section class="container text-center my-5 ">
+        <input type="text" placeholder="Nhập username" class="" name="user" />  <br />
+        <input type="password" placeholder="*********" class="my-2" name="pas" /> <br />
+        <button type="submit"> Đăng nhập</button>
+    </section>
+</form>
