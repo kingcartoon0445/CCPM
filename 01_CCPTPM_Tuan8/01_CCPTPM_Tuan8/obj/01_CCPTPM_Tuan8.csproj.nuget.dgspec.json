@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HocKi\\hocki5\\CCPTPM\\Tuan8\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj": {}
+    "D:\\HocKi\\hocki5\\CCPTPM\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj": {}
   },
   "projects": {
-    "D:\\HocKi\\hocki5\\CCPTPM\\Tuan8\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj": {
+    "D:\\HocKi\\hocki5\\CCPTPM\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocKi\\hocki5\\CCPTPM\\Tuan8\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj",
+        "projectUniqueName": "D:\\HocKi\\hocki5\\CCPTPM\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj",
         "projectName": "01_CCPTPM_Tuan8",
-        "projectPath": "D:\\HocKi\\hocki5\\CCPTPM\\Tuan8\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj",
+        "projectPath": "D:\\HocKi\\hocki5\\CCPTPM\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\HocKi\\hocki5\\CCPTPM\\Tuan8\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\obj\\",
+        "outputPath": "D:\\HocKi\\hocki5\\CCPTPM\\git\\CCPM\\01_CCPTPM_Tuan8\\01_CCPTPM_Tuan8\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -39,6 +43,28 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
